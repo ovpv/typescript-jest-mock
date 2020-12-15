@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render properly 1`] = `
+<div
+  className="App"
+>
+  <h2>
+    How old are you?
+  </h2>
+  <label>
+    Birthday: 
+  </label>
+  <input
+    id="birthday"
+    name="birthday"
+    onChange={[Function]}
+    type="date"
+    value=""
+  />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Calculate Age
+  </button>
+  <div>
+    Your age is: 
+    0
+  </div>
+</div>
+`;

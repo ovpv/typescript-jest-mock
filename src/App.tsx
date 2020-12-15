@@ -6,7 +6,9 @@ export default function App() {
   const [date, setDate] = useState("");
   const [age, setAge] = useState(0);
   const calculateAge = () => {
-    setAge(moment().diff(date, "years"));
+    console.log('diff called');
+    const calcAge = moment().diff(date, "years");
+    setAge(calcAge);
   };
   return (
     <div className="App">
